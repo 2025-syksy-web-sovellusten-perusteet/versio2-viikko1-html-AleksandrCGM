@@ -9,21 +9,31 @@
 </head>
 <body>
   <header>
-    <h1><!-- TODO: Lomake-sivun H1 --></h1>
+    <h1>Viikko 1 - Palaute Lomake</h1>
     <nav aria-label="Päävalikko">
-      <!-- TODO: Sama navigaatio kuin muilla sivuilla -->
+      <ul>
+        <li><a href="index.html">Etusivu</a></li>
+        <li><a href="table.html">Taulukko</a></li>
+        <li><a href="form.html" aria-current="page">Lomake</a></li>
+        <li><a href="image.html">Kuvat</a></li>
+      </ul>
     </nav>
   </header>
-  <main>
-    <!-- TODO: Luo <form>:
-         - lisää label for + id parit
-         - järkevät type-arvot (email, number, tms.)
-         - method ja action attribuutit
-         - submit-painike
-    -->
+  <main id="sisältö">
+    <form method="get" action="#">
+      <div>
+        <label for="nimi">Nimi</label>
+        <input type="text" id="nimi" name="nimi">
+      </div>
+      <div>
+        <label for="email">Sähköposti</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <button type="submit">Lähetä</button>
+    </form>
   </main>
   <footer>
-    <!-- TODO: Footer -->
+    <p>&copy; 2025 Aleksandr Starchenkov - Viikko 1 harjoitus</p>
   </footer>
 </body>
 </html>
