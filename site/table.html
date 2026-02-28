@@ -9,16 +9,48 @@
 </head>
 <body>
   <header>
-    <h1><!-- TODO: Taulukko-sivun H1 --></h1>
+    <h1>Viikko 1 - Taulukko</h1>
     <nav aria-label="Päävalikko">
-      <!-- TODO: Sama navigaatio kuin muilla sivuilla -->
+      <ul>
+        <li><a href="index.html">Etusivu</a></li>
+        <li><a href="table.html" aria-current="page">Taulukko</a></li>
+        <li><a href="form.html">Lomake</a></li>
+        <li><a href="image.html">Kuvat</a></li>
+      </ul>
     </nav>
   </header>
   <main>
-    <!-- TODO: Lisää datataulukko, jossa on caption + thead/tbody -->
-  </main>
+  <table>
+    <caption>Opiskelijoiden arvosanat</caption>
+    <thead>
+      <tr>
+        <th scope="col">Nimi</th>
+        <th scope="col">Kurssi</th>
+        <th scope="col">Arvosana</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Aino Virtanen</td>
+        <td>HTML ja CSS</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Mikko Laine</td>
+        <td>HTML ja CSS</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Liisa Korhonen</td>
+        <td>HTML ja CSS</td>
+        <td>3</td>
+      </tr>
+    </tbody>
+  </table>
+</main>
+
   <footer>
-    <!-- TODO: Footer -->
+    <p>&copy; 2025 Aleksandr Starchenkov - Viikko 1 harjoitus</p>
   </footer>
 </body>
 </html>
